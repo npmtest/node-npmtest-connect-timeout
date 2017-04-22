@@ -1,4 +1,7 @@
-# test coverage for  [connect-timeout (v1.8.0)](https://github.com/expressjs/timeout)  [![npm package](https://img.shields.io/npm/v/npmtest-connect-timeout.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-connect-timeout) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-connect-timeout.svg)](https://travis-ci.org/npmtest/node-npmtest-connect-timeout)
+# npmtest-connect-timeout
+
+#### basic test coverage for  [connect-timeout (v1.8.0)](https://github.com/expressjs/timeout)  [![npm package](https://img.shields.io/npm/v/npmtest-connect-timeout.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-connect-timeout) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-connect-timeout.svg)](https://travis-ci.org/npmtest/node-npmtest-connect-timeout)
+
 #### Request timeout middleware for Connect/Express
 
 [![NPM](https://nodei.co/npm/connect-timeout.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/connect-timeout)
@@ -115,7 +118,8 @@
         "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
         "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter dot --check-leaks test/"
     },
-    "version": "1.8.0"
+    "version": "1.8.0",
+    "bin": {}
 }
 ```
 
